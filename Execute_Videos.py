@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 # Path to the classification model
-CLASSIFICATION_MODEL_PATH = 'models/SwinTransformerModel.pth'
+CLASSIFICATION_MODEL_PATH = 'models/Model.pth'
 
 # Load the classification model
 classification_model = torch.jit.load(CLASSIFICATION_MODEL_PATH)
