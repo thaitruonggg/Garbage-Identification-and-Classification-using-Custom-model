@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 # Path to the classification model
-CLASSIFICATION_MODEL_PATH = 'models/SwinTransformerModel.pth'
+CLASSIFICATION_MODEL_PATH = 'models/Model.pth'
 
 # Load the image
 image_path = "external/testset3.jpg"
